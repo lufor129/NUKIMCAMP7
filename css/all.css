@@ -264,3 +264,34 @@ html, body {
   }
 
 }
+
+.addthis_toolbox {
+	position: fixed; 
+	right: 0;
+	top:40%;
+	color: #b1a59a;
+	font-family: 'revista', georgia, serif;
+	font-size: 16px;
+	text-align: right;
+	line-height: normal;
+    z-index: 9999;
+}
+
+.custom_images {
+	border-top:2px solid #b1a59a;
+	border-left:2px solid #b1a59a;
+	border-bottom:2px solid #b1a59a;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+	margin-bottom: 10px;
+	padding: 10px 0 10px 10px;
+}
+.custom_images a {
+	display: inline-block;
+	opacity: 1;
+	transition: 0.5s ease all;
+}
+.custom_images a:hover  {
+	opacity: 0.75;
+	transition: 0.5s ease all;
+}
