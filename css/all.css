@@ -59,7 +59,7 @@ body{
 }
 
 .IM-navbar-links-container ul li a:hover {
-  color: red
+  color: blue;
 }
 
 .IM-vice-header {
