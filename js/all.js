@@ -9,12 +9,3 @@ $(document).ready(function() {
       $(this).css('opacity',"1");
     });
 });
-
-$(function(){
-	$('.faq-content').hide();
-
-	$('body').on('click', '.faq', function(){
-		$('#activity-dialog-title').text($(this).find('.activity-title').text());
-		$('#activity-dialog-body').html($(this).find('.activity-content').html());
-	});
-});
