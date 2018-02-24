@@ -8864,7 +8864,7 @@ a.text-warning:hover, a.text-warning:focus {
 }
 
 .text-danger {
-  color: #dc3545 !important;
+  color: red !important;
 }
 
 a.text-danger:hover, a.text-danger:focus {
