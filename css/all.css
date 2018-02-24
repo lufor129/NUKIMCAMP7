@@ -109,7 +109,8 @@ body{
 .container ul, li {
 	margin: 0;
 	padding: 0;
-	list-style: none;
+	list-style-type: none;
+	list-style-image: url(img/q.gif);
 }
 
 #qaContent ul.accordionPart li {
@@ -118,7 +119,7 @@ body{
 	margin-top: 12px;
 }
 #qaContent ul.accordionPart li .qa_title {
-	background: (/q.gif) no-repeat 0px 3px;
+	background: url(img/q.gif) no-repeat 0px 3px;
 	padding-left: 28px;
 	color: #1186ec;
 	cursor: pointer;
@@ -128,7 +129,7 @@ body{
 }
 #qaContent ul.accordionPart li .qa_content {
 	margin: 6px 0 0;
-	background: url(q.gif) no-repeat 0px -24px;
+	background: url(img/q.gif) no-repeat 0px -24px;
 	padding-left: 28px;
 	color: #666;
 }
