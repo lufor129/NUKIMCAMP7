@@ -268,7 +268,7 @@ html, body {
 .addthis_toolbox {
 	position: fixed; 
 	right: 0;
-	top:75%;
+	bottom:10%;
 	color: #b1a59a;
 	font-family: 'revista', georgia, serif;
 	font-size: 16px;
