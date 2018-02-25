@@ -75,7 +75,7 @@ body{
 }
 
 .IM-carousel-inner img{
-  width: 720px;
+  width: 80%;
   height: 480px;
   margin: 0 auto;
 }
@@ -104,6 +104,33 @@ body{
 .sponsor-container a img{
   width: auto;
   height: 10rem;
+}
+
+.container ul, li {
+	margin: 0;
+	padding: 0;
+
+}
+
+#qaContent ul.accordionPart li {
+	border-bottom: solid 1px #e3e3e3;
+	padding-bottom: 12px;
+	margin-top: 12px;
+}
+#qaContent ul.accordionPart li .qa_title {
+	background: url(img/q.gif) no-repeat 0px 3px;
+	padding-left: 28px;
+	color: #1186ec;
+	cursor: pointer;
+}
+#qaContent ul.accordionPart li .qa_title_on {
+	text-decoration: underline;
+}
+#qaContent ul.accordionPart li .qa_content {
+	margin: 6px 0 0;
+	background: url(img/q.gif) no-repeat 0px -24px;
+	padding-left: 28px;
+	color: #666;
 }
 
 .container-dept{
@@ -221,6 +248,20 @@ html, body {
 .sponsor-container p {
   margin-bottom: 0;
 }
+
+.addthis_toolbox {
+	position: fixed; 
+	right: 0;
+	bottom:10%;
+	color: #b1a59a;
+	font-family: 'revista', georgia, serif;
+	font-size: 16px;
+	text-align: right;
+	line-height: normal;
+    z-index: 9999;
+	width:15%;
+}
+
 @media screen and (max-width: 768px) {
   .logo-brand {
     display: block
@@ -262,30 +303,15 @@ html, body {
   .admission-list {
     text-align: center;
   }
+  
+  .addthis_toolbox{
+	  right:9%;
+  }
 
 }
 
-.addthis_toolbox {
-	position: fixed; 
-	right: 0;
-	top:75%;
-	color: #b1a59a;
-	font-family: 'revista', georgia, serif;
-	font-size: 16px;
-	text-align: right;
-	line-height: normal;
-    z-index: 9999;
-}
 
-.custom_images {
-	border-top:2px solid #b1a59a;
-	border-left:2px solid #b1a59a;
-	border-bottom:2px solid #b1a59a;
-	border-top-left-radius: 30px;
-	border-bottom-left-radius: 30px;
-	margin-bottom: 10px;
-	padding: 10px 0 10px 10px;
-}
+
 .custom_images a {
 	display: inline-block;
 	opacity: 1;
