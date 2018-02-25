@@ -248,6 +248,20 @@ html, body {
 .sponsor-container p {
   margin-bottom: 0;
 }
+
+.addthis_toolbox {
+	position: fixed; 
+	right: 0;
+	bottom:10%;
+	color: #b1a59a;
+	font-family: 'revista', georgia, serif;
+	font-size: 16px;
+	text-align: right;
+	line-height: normal;
+    z-index: 9999;
+	width:15%;
+}
+
 @media screen and (max-width: 768px) {
   .logo-brand {
     display: block
@@ -289,21 +303,14 @@ html, body {
   .admission-list {
     text-align: center;
   }
+  
+  .addthis_toolbox{
+	  right:8%;
+  }
 
 }
 
-.addthis_toolbox {
-	position: fixed; 
-	right: 0;
-	bottom:10%;
-	color: #b1a59a;
-	font-family: 'revista', georgia, serif;
-	font-size: 16px;
-	text-align: right;
-	line-height: normal;
-    z-index: 9999;
-	width:15%;
-}
+
 
 .custom_images a {
 	display: inline-block;
